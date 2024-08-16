@@ -1,0 +1,235 @@
+/* styles_1.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+.feedback-bar {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #e0e0e0;
+    border-top: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+}
+
+#feedback {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+}
+
+#feedback-submit {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#feedback-submit:hover {
+    background-color: #0056b3;
+}
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.header-left input {
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+}
+
+.header-left button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.header-center h1 {
+    margin: 0;
+}
+
+.header-right a,
+.header-right button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #fff;
+    margin-left: 10px;
+}
+
+/* Main Section Styles */
+main {
+    padding: 20px;
+}
+
+/* Leaderboard Styles */
+.leaderboard {
+    margin-bottom: 20px;
+}
+
+.scrolling-leaderboard {
+    overflow-x: auto;
+}
+
+.leaderboard-list {
+    display: flex;
+    gap: 15px;
+}
+
+.performer {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    flex: 0 0 auto;
+    text-align: center;
+}
+
+.performer img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.badges {
+    margin-top: 10px;
+}
+
+.badge {
+    width: 24px;
+    height: 24px;
+    margin: 0 5px;
+}
+
+/* Give Badge Section Styles */
+.give-badge-section {
+    margin-bottom: 20px;
+}
+
+.give-badge-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.give-badge-button:hover {
+    background-color: #0056b3;
+}
+
+#give-badge {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Post Section Styles */
+.post-section {
+    margin-bottom: 20px;
+}
+
+.post-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.post-button:hover {
+    background-color: #0056b3;
+}
+
+#post-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Find My Type Styles */
+.find-your-type {
+    margin-bottom: 20px;
+}
+
+.scrolling-profiles {
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+}
+
+.profile {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    flex: 0 0 auto;
+}
+
+.profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.scroll-left,
+.scroll-right {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.scroll-left:hover,
+.scroll-right:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}

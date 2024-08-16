@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="styles_1.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="header-left">
+                <input type="text" id="search" placeholder="Search by username">
+                <button id="notification" title="Notifications">🔔</button>
+            </div>
+            <div class="header-center">
+                <h1>Peer Recognition System</h1>
+            </div>
+            <div class="header-right">
+                <a id="my-profile-btn" href="index.html"><span>&#127968;</span>
+                </a>
+                <a id="my-profile-btn" href="my-profile.html">👤</a><hr/><hr/><hr/><hr/>
+		<button id="sign-out">🚪</button>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <section class="profile-details">
+            <img src="https://randomuser.me/api/portraits/men/3.jpg" alt="Profile Picture" class="profile-pic">
+            <h1>John Doe</h1>
+            <p>Skills: Management, Leadership</p>
+            <p>Badges Received: 5</p>
+            <button id="edit-profile-button" class="edit-profile-button">Edit Profile</button>
+        </section>
+        
+        <!-- Edit Profile Section -->
+        <section id="edit-profile-section" class="edit-profile-section">
+            
+            <form id="edit-profile-form">
+		<h2>Edit Profile</h2>
+                <label for="skills">Skills:</label>
+                <input type="text" id="skills" name="skills" placeholder="Enter your skills" required>
+                
+                <label for="certifications">Upload Certifications:</label>
+                <input type="file" id="certifications" name="certifications" accept=".pdf,.docx,.png,.jpg">
+                
+                <button type="submit">Save Changes</button>
+                <button type="button" id="cancel-edit">Cancel</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Peer-to-Peer Recognition: Celebrate and acknowledge the efforts of your peers!</p>
+        <a href="index.html">Home</a>
+        <a href="signout.html">Sign Out</a>
+    </footer>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
